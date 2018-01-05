@@ -13,7 +13,7 @@ sys.stdout = open("/Users/Jared/Desktop/CryptoBot.txt", "w")
 
 # Variables
 capital = 0.00
-num_coins = 1000000.000000000
+num_coins = 1000.000000000
 price = 0.00
 
 
@@ -40,9 +40,9 @@ def main():
         else:
             pass
 
-        print("Capital: $" + str(capital))
+        print("Capital: %s BTC" % str(capital))
         print("Number of Coins:", num_coins)
-        print("Current price: $" + str(price))
+        print("Current price: %s BTC" % str(price))
         print("\n=================================================\n")
 
         time.sleep(30)
