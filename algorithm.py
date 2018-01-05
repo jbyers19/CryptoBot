@@ -8,7 +8,7 @@ def price_queue_init(array_length):
     array = []
     for i in range(array_length):
         array.append(get_price())
-        time.sleep(10)
+        time.sleep(3)
     print("\nInitial Price Queue:", str(array), "\n")
     return array
 
