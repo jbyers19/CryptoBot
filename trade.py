@@ -10,6 +10,5 @@ def buy(capital, price):
 
 # Sell coins
 def sell(price, amount):
-    getcontext().prec = 2
     print("Number of coins sold: " + str(Decimal(price) * Decimal(amount)))
     return Decimal(price) * Decimal(amount)
